@@ -216,7 +216,16 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.callout {
+.service-icon:hover {
+  background-color: #155d74;
+  text-decoration: none;
+}
+
+.service-name:hover {
+  text-decoration: none;
+}
+
+/* .callout {
   padding: 15rem 0;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
@@ -230,7 +239,7 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
-}
+} */
 
 .portfolio-item {
   display: block;
@@ -325,12 +334,17 @@ footer.footer .social-link:hover {
 }
 
 a {
-  color: #1D809F;
+  color: #fff;
 }
 
 a:hover, a:focus, a:active {
   color: #155d74;
 }
+
+a.little{
+  color: #1D809F;
+}
+
 
 .btn-primary {
   background-color: #1D809F !important;
